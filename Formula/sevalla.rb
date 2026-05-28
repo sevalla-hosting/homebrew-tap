@@ -1,28 +1,28 @@
 class Sevalla < Formula
   desc "Official CLI for the Sevalla cloud platform"
   homepage "https://github.com/sevalla-hosting/cli"
-  version "1.9.0"
+  version "1.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sevalla-hosting/cli/releases/download/v1.9.0/sevalla-darwin-arm64.tar.gz"
-      sha256 "4c08dbd94523d97e5f6293fcce7f9139a8a43172f0e980efae8e61389f0208b6"
+      url "https://github.com/sevalla-hosting/cli/releases/download/v1.10.0/sevalla-darwin-arm64.tar.gz"
+      sha256 "13b4c1c9c19d7c61bfc086cfeae09bf35f43817c0009618c24caca0eb8c729ad"
     end
     on_intel do
-      url "https://github.com/sevalla-hosting/cli/releases/download/v1.9.0/sevalla-darwin-x64.tar.gz"
-      sha256 "0a17ee2eb6511e7a4cd47868a8c970095e33cfdbce09c9edbe8e7fb63989028b"
+      url "https://github.com/sevalla-hosting/cli/releases/download/v1.10.0/sevalla-darwin-x64.tar.gz"
+      sha256 "012fe7e6a49566cb746353194c28a3cb1c6aa3629b5dd203c5eb377b72bbec8f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sevalla-hosting/cli/releases/download/v1.9.0/sevalla-linux-arm64.tar.gz"
-      sha256 "f00bd841ce765d7d9b97e86c573b298ec63ec3bf7688c7e0c550e1b65c2a33f5"
+      url "https://github.com/sevalla-hosting/cli/releases/download/v1.10.0/sevalla-linux-arm64.tar.gz"
+      sha256 "0684c82a96a2684d4190d9433d8bb9f0d77f01f0cd514c24af670126a05f2a56"
     end
     on_intel do
-      url "https://github.com/sevalla-hosting/cli/releases/download/v1.9.0/sevalla-linux-x64.tar.gz"
-      sha256 "90e3766487a4e1d0abf86596b31e6b670b1796448eec2a5554649bcc8747a2f1"
+      url "https://github.com/sevalla-hosting/cli/releases/download/v1.10.0/sevalla-linux-x64.tar.gz"
+      sha256 "8beee30c1ecd265c0f508a4a1f973a0d8563811dce8bd71afc83f05a46a99f55"
     end
   end
 
